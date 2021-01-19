@@ -11,6 +11,7 @@
     <modules>
         <module>zookeeper</module>
         <module>zk-client</module>
+        <module>curator</module>
     </modules>
 
 
