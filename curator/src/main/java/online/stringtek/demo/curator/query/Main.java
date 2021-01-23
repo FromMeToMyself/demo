@@ -5,7 +5,6 @@ import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.retry.ExponentialBackoffRetry;
 import org.apache.zookeeper.data.Stat;
 
-import java.nio.charset.StandardCharsets;
 
 public class Main {
     public static void main(String[] args) throws Exception {
