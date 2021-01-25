@@ -11,6 +11,7 @@ public class Main {
     public static void main(String[] args) {
         ApplicationContext ctx=new AnnotationConfigApplicationContext(DubboConfig.class);
         ConsumerService consumerService = ctx.getBean(ConsumerService.class);
-        System.out.println(consumerService.getDemoService().sayHello("Stringtek"));
+        System.out.println(consumerService.getDemoService().sayHello("StringTek"));
+        System.out.println(consumerService.getSleepDemoService().slowSayHello("StringTek"));
     }
 }

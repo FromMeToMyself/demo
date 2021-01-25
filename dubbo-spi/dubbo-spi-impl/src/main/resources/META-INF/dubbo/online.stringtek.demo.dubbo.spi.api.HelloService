@@ -1,0 +1,2 @@
+human=online.stringtek.dubbo.spi.impl.service.impl.HumanHelloServiceImpl
+dog=online.stringtek.dubbo.spi.impl.service.impl.DogHelloServiceImpl
